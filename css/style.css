@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+.container {
+    min-height: 100vh;
+    padding: 30px 0px 30px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background: #3F3F3F;
+}
+
+.container > h1 {
+    color: #F5F5F5;
+    text-shadow: 0.1em 0.1em 0.2em #1E1E1E;
+}
+
+.container > p {
+    width: 90%;
+    color: #F5F5F5;
+    text-shadow: 0.1em 0.1em 0.2em #1E1E1E;
+    font: 1rem;
+    text-align: justify;
+}
+
+.container-arvore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.star {
+    height: 10px;
+    width: 10px;
+    background: url('../img/yellow.svg') no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 0px rgb(252, 243, 129);
+    animation: myStar 2s ease 0s infinite normal forwards;
+}
+
+.arvore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.arvore > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+}
+
+.sheet-green {
+    height: 10px;
+    width: 10px;
+    background: url('../img/green.svg') no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 0px rgba(205, 252, 205, 0.75);
+}
+
+.sheet-blue {
+    height: 10px;
+    width: 10px;
+    background: url('../img/blue.svg') no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 0px rgba(205, 252, 205, 0.75);
+   
+}
+
+.sheet-red {
+    height: 10px;
+    width: 10px;
+    background: url('../img/red.svg') no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 0px rgba(205, 252, 205, 0.75);
+    
+}
+
+.sheet-yellow {
+    height: 10px;
+    width: 10px;
+    background: url('../img/yellow.svg') no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 0px rgba(205, 252, 205, 0.75);
+    
+}
+
+.tronco > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+}
+
+.stem {
+    height: 10px;
+    width: 10px;
+    background: url('../img/purpe.svg') no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 0px rgba(252, 235, 205, 0.377);
+}
+
+@keyframes myStar {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
